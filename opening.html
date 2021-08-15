@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jobs - NITJ Alumni</title>
+	<style type="text/css">
+		.act:hover{
+			filter: brightness(75%);
+			transition: .2s ease;
+		}
+		.nav{
+			text-align: center;
+			padding: 6px;
+			font-size: 20px;
+			font-family: Leelawadee UI;
+			font-weight: lighter;
+			box-shadow: 0px 0px 5px black;
+			border-radius: 10px;
+		}
+		.nav:hover{
+			background-color: #dddddd;
+			transition: .2s ease;
+		}
+		.bd{
+			background-color: #ffffff;
+			box-shadow: 0px 0px 5px black;
+			border-radius: 10px;
+			margin-left: 15.6%; margin-right: 16%; width: 65%;
+		}
+		.cont{
+			background-color: #f5f5f5;
+			box-shadow: 0px 0px 5px black;
+			border-radius: 10px;
+			margin: 20px;
+		}
+		.head{
+			margin: 10px; font-family: Leelawadee UI; font-size: 20px;
+		}
+		.text{
+			margin: 10px; font-family: Leelawadee UI; font-size: 15px;
+		}
+		.img-circular{
+ 			width: 40px;
+ 			height: 40px;
+ 			background-size: cover;
+ 			display: inline-block;
+ 			border-radius: 50%;
+ 			border-width: 1px;
+		}
+	</style>
+	<meta charset="utf-8">
+</head>
+<body style="background-image: url('bg.png'); background-size: 100%; background-color: #cccccc; background-attachment: fixed;">
+	<table style="margin-left: 15%; margin-right: 16%%; margin-top: 2%;width: 65%%;"><tr><td><a href="home.html"><img src="logo.png" width="400"></a></td>
+	<td><a href="profile.html"><img src="button.png" class="act" width="150"></a></td></tr><br></table>
+	<div>
+		<table style="margin-left: 15%; margin-right: 16%; width: 66%; table-layout: fixed; border-spacing: 10px;">
+			<tr style="background-color: #ffffff;">
+				<td class="nav"> <a href="home.html" style="color: black; text-decoration: none;">Home </a></td>
+				<td class="nav"> <a href="people.html" style="color: black; text-decoration: none;">People </a></td>
+				<td class="nav" style="background-color: #dddddd; font-weight: bold;"><a href="jobs.html" style="color: black; text-decoration: none;"> Jobs </a></td>
+				<td class="nav"> <a href="events.html" style="color: black; text-decoration: none;">Events </a></td>
+				<td class="nav"> <a href="donation.html" style="color: black; text-decoration: none;">Donation Campaigns </a></td>
+				<td class="nav"> <a href="professional.html" style="color: black; text-decoration: none;">Professional Development </a></td>
+			</tr>
+		</table>
+	</div>
+	<div class=bd>
+		<br>
+		<div style="margin: 20px; font-family: Leelawadee UI; font-size: 28px;">
+			<form><a href="jobs.html"><input type="button" name="back" value="< Back"></a> Submit Job Opening</form>
+		</div>
+		<div class="cont" style="width: 60%">
+			<form class="text">
+				<table style="width=100%; table-layout: fixed; border-spacing: 10px;">
+					<tr>
+						<td ><label>Position(s)</label></td>
+						<td>
+							<input type="text" name="pos">
+						</td>
+					</tr>
+					<tr>
+						<td ><label>Company</label></td>
+						<td>
+							<input type="text" name="com">
+						</td>
+					</tr>
+					<tr>
+						<td>Min Experience</td><td><input type="number" name="min" min="0" max="19" maxlength="40px"></td>
+					</tr>
+					<tr>
+						<td>Max Experience</td><td><input type="number" name="max" min="0" max="19" maxlength="40px"></td>
+					</tr>
+					<tr>
+						<td ><label>Your Mobile Number</label></td>
+						<td>
+							<input type="text" name="mob">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><label>Tell us more about the job opening</label></td>
+					</tr>
+					<tr></tr>
+						<td colspan="2">
+							<textarea name="info" rows="12" cols="50">
+							<<  Insert your job description here  >>
+							</textarea>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2"><label>Company Info</label></td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<textarea name="cmp" rows="12" cols="50">
+								<<  Insert Company Info here  >>
+							</textarea>
+						</td>
+					</tr>
+					<tr><td><input type="submit" name="submit" value="Post Opening"></td></tr>
+				</table>
+			</form>
+		</div>
+		<br>
+	</div>
+	<div class="bd">
+		<div style="margin: 20px; font-family: Leelawadee UI; font-size: 10px;">
+			<br>
+			<a href="home.html">Home</a>/<a href="people.html">People</a>/<a href="jobs.html">Jobs</a>/<a href="events.html">Events</a>/<a href="donation.html">Donation Campaigns</a>/<a href="professional.html">Professional Development</a><br>
+			<br>
+			<a href="https://nitj.ac.in">Dr B.R Ambedkar National Institute of Technology, Jalandhar</a>
+		</div>	
+		<br>
+	</div>
+
+</body>
+</html>
